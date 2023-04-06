@@ -45,6 +45,7 @@
         "tmp": true
     },
     "files.hotExit": "off",
+    "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
