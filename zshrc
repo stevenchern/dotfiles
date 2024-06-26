@@ -6,10 +6,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 ZSH=$HOME/.oh-my-zsh
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
 plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)
@@ -82,3 +82,12 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+source ~/sites/powerlevel10k/powerlevel10k.zsh-theme
+alias cred_show_d="EDITOR=vim rails credentials:show -e development"
+alias cred_show_s="EDITOR=vim rails credentials:show -e staging"
+alias cred_show_t="EDITOR=vim rails credentials:show -e test"
+alias cred_edit_d="EDITOR=vim rails credentials:edit -e development"
+alias cred_edit_s="EDITOR=vim rails credentials:edit -e staging"
+alias cred_edit_t="EDITOR=vim rails credentials:edit -e test"
+alias cap="bundle exec cap"
+alias aquaflow084="ssh aquaflow_user@aquas084"
