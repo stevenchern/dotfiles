@@ -5,6 +5,6 @@ rescue LoadError
 end
 
 if defined?(Pry)
-  Pry.start
-  exit
+  # Pry.start
+  # exit
 end

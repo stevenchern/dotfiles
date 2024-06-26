@@ -4,7 +4,6 @@
         "editor.guides.bracketPairs": false,
         "editor.tabSize": 4
     },
-    "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
     "editor.fontSize": 14,
     "editor.guides.bracketPairs": true,
@@ -46,8 +45,6 @@
     },
     "files.hotExit": "off",
     "files.autoSave": "onFocusChange",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
         "**/audits/**": true,
@@ -57,7 +54,7 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
+    "git.enabled": true,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -84,5 +81,16 @@
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.panel.defaultLocation": "right",
+    "workbench.editorAssociations": {
+      "*.pdf": "default"
+    },
+    "remote.SSH.configFile": "/Users/stevenchern/code/stevenchern/dotfiles/config",
+    "workbench.colorTheme": "Tokyo Night",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.persistentSessionScrollback": 5000,
+    "terminal.integrated.scrollback": 5000,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.renderFinalNewline": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF"
 }

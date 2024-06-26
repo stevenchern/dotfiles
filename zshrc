@@ -82,3 +82,15 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+alias python=/usr/bin/python3
+alias cred_show_d="EDITOR=vim rails credentials:show -e development"
+alias cred_show_s="EDITOR=vim rails credentials:show -e staging"
+alias cred_show_t="EDITOR=vim rails credentials:show -e test"
+alias cred_show_p="EDITOR=vim rails credentials:show -e production"
+alias cred_edit_d="EDITOR=vim rails credentials:edit -e development"
+alias cred_edit_s="EDITOR=vim rails credentials:edit -e staging"
+alias cred_edit_t="EDITOR=vim rails credentials:edit -e test"
+alias cap="bundle exec cap"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
