@@ -85,12 +85,12 @@
       "*.pdf": "default"
     },
     "remote.SSH.configFile": "/Users/stevenchern/code/stevenchern/dotfiles/config",
-    "workbench.colorTheme": "Tokyo Night",
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "terminal.integrated.persistentSessionScrollback": 5000,
     "terminal.integrated.scrollback": 5000,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.renderFinalNewline": "off",
     "diffEditor.ignoreTrimWhitespace": false,
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.colorTheme": "GitHub Dark Default"
 }
