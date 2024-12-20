@@ -59,3 +59,5 @@
 
 [init]
   defaultBranch = master
+[user]
+	name = Steven Chern
