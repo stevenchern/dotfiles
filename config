@@ -1,98 +1,6 @@
-Host 192.168.3.234
-  HostName 192.168.3.234
-  User zookeeper_user
-
-Host aquas084
-  HostName aquas084
-  User aquaflow_user
-
-Host 192.168.3.234
-  HostName 192.168.3.234
-  User zookeeper_user
-
-Host aquas086
-  HostName aquas086
-  User zookeeper_user
-
-Host gitlab.com
-  HostName ssh.gitlab.com
-  Port 443
-  IdentityFile ~/.ssh/id_rsa
-  # Read more about SSH config files: https://linux.die.net/man/5/ssh_config
-Host aquas127
-  HostName aquas127.aquaporservicos.pt
-  User developer
-  StrictHostKeyChecking no
-  ServerAliveInterval 60
-  ServerAliveCountMax 10
-  IdentityFile ~/.ssh/id_rsa
-  # webpack
-  LocalForward localhost:3035 localhost:3035
-  LocalForward localhost:3036 localhost:3036
-  LocalForward localhost:3037 localhost:3037
-  LocalForward localhost:3038 localhost:3038
-  LocalForward localhost:3039 localhost:3039
-  LocalForward localhost:3040 localhost:3040
-  LocalForward localhost:3041 localhost:3041
-  LocalForward localhost:3042 localhost:3042
-  LocalForward localhost:3043 localhost:3043
-  LocalForward localhost:3044 localhost:3044
-  LocalForward localhost:3045 localhost:3045
-  LocalForward localhost:3046 localhost:3046
-  LocalForward localhost:3047 localhost:3047
-  LocalForward localhost:3048 localhost:3048
-  LocalForward localhost:3049 localhost:3049
-  LocalForward localhost:3050 localhost:3050
-  LocalForward localhost:8888 localhost:8888
-  # rails
-  LocalForward 127.0.0.1:3000 127.0.0.1:3000
-  LocalForward localhost:3000 localhost:3000
-  LocalForward localhost:3001 localhost:3001
-  LocalForward localhost:3002 localhost:3002
-  LocalForward localhost:3003 localhost:3003
-  LocalForward localhost:3004 localhost:3004
-  LocalForward localhost:3005 localhost:3005
-  LocalForward localhost:3006 localhost:3006
-  LocalForward localhost:3007 localhost:3007
-  LocalForward localhost:3008 localhost:3008
-  LocalForward localhost:3009 localhost:3009
-  LocalForward localhost:3010 localhost:3010
-  LocalForward localhost:3011 localhost:3011
-  LocalForward localhost:3012 localhost:3012
-  LocalForward localhost:3013 localhost:3013
-  LocalForward localhost:3014 localhost:3014
-  LocalForward localhost:3015 localhost:3015
-  # APIS
-  LocalForward localhost:4001 localhost:4001
-  LocalForward localhost:4002 localhost:4002
-  LocalForward localhost:4003 localhost:4003
-  LocalForward localhost:4004 localhost:4004
-  LocalForward localhost:4005 localhost:4005
-  LocalForward localhost:4006 localhost:4006
-  LocalForward localhost:4007 localhost:4007
-  LocalForward localhost:4008 localhost:4008
-  LocalForward localhost:4009 localhost:4009
-  LocalForward localhost:4010 localhost:4010
-  LocalForward localhost:4011 localhost:4011
-  LocalForward localhost:4012 localhost:4012
-  LocalForward localhost:4013 localhost:4013
-  LocalForward localhost:4014 localhost:4014
-  LocalForward localhost:4015 localhost:4015
-  # Docker
-  LocalForward localhost:8080 localhost:8080
-  LocalForward localhost:8000 localhost:8000
-  LocalForward localhost:9443 localhost:9443
-  LocalForward localhost:9000 localhost:9000
-  LocalForward localhost:9020 localhost:9020
-  LocalForward localhost:8090 localhost:8090
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
-  # LocalForward localhost:4015 localhost:4015
+Host aquas146
+  HostName aquas146
+  User docker_user
 
 Host aquas145
   HostName aquas145
@@ -168,3 +76,33 @@ Host aquas145
   # LocalForward localhost:4015 localhost:4015
   # LocalForward localhost:4015 localhost:4015
   # LocalForward localhost:4015 localhost:4015
+
+Host 192.168.3.234
+  HostName 192.168.3.234
+  User zookeeper_user
+
+Host aquas084
+  HostName aquas084
+  User aquaflow_user
+
+Host 192.168.3.234
+  HostName 192.168.3.234
+  User zookeeper_user
+
+Host aquas086
+  HostName aquas086
+  User zookeeper_user
+
+Host gitlab.com
+  HostName ssh.gitlab.com
+  Port 443
+  IdentityFile ~/.ssh/id_rsa
+  # Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+
+Host aquas091
+  HostName aquas091
+  User zookeeper_user
+
+Host aquas086
+  HostName aquas086
+  User zookeeper_user
