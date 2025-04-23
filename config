@@ -14,10 +14,6 @@ Host aquas086
   HostName aquas086
   User zookeeper_user
 
-Host *
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_ed25519
 Host gitlab.com
   HostName ssh.gitlab.com
   Port 443
