@@ -6,7 +6,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 ZSH=$HOME/.oh-my-zsh
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+# source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source ~/sites/powerlevel10k/powerlevel10k.zsh-theme
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"

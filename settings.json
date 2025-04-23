@@ -82,7 +82,9 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editorAssociations": {
-      "*.pdf": "default"
+      "*.pdf": "default",
+      "*.html": "default",
+      "{git,gitlens}:/**/*.{md,csv,svg}": "default"
     },
     "remote.SSH.configFile": "/Users/stevenchern/code/stevenchern/dotfiles/config",
     "workbench.colorTheme": "Tokyo Night",
