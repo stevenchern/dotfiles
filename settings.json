@@ -27,7 +27,7 @@
         "__pycache__": true,
         "_site": true,
         ".asset-cache": true,
-        ".bundle": true,
+        ".bundle": false,
         ".ipynb_checkpoints": true,
         ".pytest_cache": true,
         ".sass-cache": true,
@@ -36,22 +36,21 @@
         "**/.egg-info": true,
         "**/.git": true,
         "build": true,
-        "coverage": true,
         "dist": true,
-        "log": true,
+        "log": false,
         "node_modules": true,
         "public/packs": true,
-        "tmp": true
+        "tmp": false
     },
     "files.hotExit": "off",
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
         "**/audits/**": true,
-        "**/coverage/**": true,
-        "**/log/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
+        "**/coverage/**": false,
+        "**/log/**": false,
+        "**/node_modules/**": false,
+        "**/tmp/**": false,
         "**/vendor/**": true
     },
     "git.enabled": true,
@@ -82,9 +81,10 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editorAssociations": {
-      "*.pdf": "default"
+      "*.pdf": "default",
+      "*.html": "default",
+      "{git,gitlens}:/**/*.{md,csv,svg}": "default"
     },
-    "remote.SSH.configFile": "/Users/stevenchern/code/stevenchern/dotfiles/config",
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "terminal.integrated.persistentSessionScrollback": 5000,
     "terminal.integrated.scrollback": 5000,
@@ -92,5 +92,29 @@
     "editor.renderFinalNewline": "off",
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.fontFamily": "MesloLGS NF",
-    "workbench.colorTheme": "GitHub Dark Default"
+    "workbench.colorTheme": "Sea Green Theme",
+    "remote.SSH.remotePlatform": {
+      "aquas145": "linux",
+      "aquas127": "linux",
+      "aquas134": "linux",
+      "aquas048": "linux",
+      "aquas086": "linux",
+      "aquas091": "linux",
+      "aquas146": "linux",
+      "aquas125": "linux",
+      "aquas137": "linux",
+      "aquas130": "linux",
+      "aquas131": "linux",
+      "aquas124": "linux",
+      "aquas128": "linux",
+      "aquas117": "linux",
+      "aquas100": "linux"
+    },
+    "settingsSync.ignoredSettings": [
+      "remote.SSH.configFile"
+    ],
+    "remote.SSH.configFile": "/Users/stevenchern/code/stevenchern/dotfiles/config",
+    "rapidapi.terminalLink.enabled": false,
+    "gitlens.home.preview.enabled": false,
+    "dart.flutterSdkPath": "/Users/stevenchern/code/flutter"
 }

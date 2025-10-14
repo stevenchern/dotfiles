@@ -80,6 +80,31 @@ Host aquas145
   # Nifi
   LocalForward localhost:8443 localhost:8443
   LocalForward localhost:8444 localhost:8444
+  LocalForward localhost:9443 localhost:9443
+
+Host aquas146
+  HostName aquas146
+  User docker_user
+
+Host aquas117
+  HostName aquas117
+  User kafka_connect_user
+
+Host aquas128
+  HostName aquas128
+  User kafka_connect_user
+
+Host aquas130
+  HostName aquas130
+  User docker_user
+
+Host aquas131
+  HostName aquas131
+  User docker_user
+
+Host aquas137
+  HostName aquas137
+  User docker_user
 
 Host aquas127
   HostName aquas127.aquaporservicos.pt
@@ -176,3 +201,11 @@ Host aquas091
 Host aquas086
   HostName aquas086
   User zookeeper_user
+
+Host aquas146
+  HostName aquas146
+  User docker_user
+
+Host aquas124
+  HostName aquas124
+  User docker_user
